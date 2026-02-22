@@ -363,7 +363,7 @@ with right_col:
     
     st.divider()
     
-    st.markdown(f"**👁🖼️ 미리보기** (최대 {CONFIG['MAX_PREVIEW_COUNT']}개)")
+    st.markdown(f"**🖼️ 미리보기** (최대 {CONFIG['MAX_PREVIEW_COUNT']}개)")
     
     current_settings_sig = (ss.anchor, ss.resize_ratio, ss.shadow_preset)
     if ss.last_settings_sig != current_settings_sig:
