@@ -336,7 +336,7 @@ with left_col:
                 st.success(f"✅ 모든 조합 생성 가능 ({summary['valid']}개)")
 
 with right_col:
-    st.subheader("⚙️ 합성 설정")
+    st.subheader("⚙️ 설정")
     
     c1, c2, c3 = st.columns(3)
     
@@ -363,7 +363,7 @@ with right_col:
     
     st.divider()
     
-    st.markdown(f"**👁️ 갤러리 미리보기** (최대 {CONFIG['MAX_PREVIEW_COUNT']}개)")
+    st.markdown(f"**👁🖼️ 미리보기** (최대 {CONFIG['MAX_PREVIEW_COUNT']}개)")
     
     current_settings_sig = (ss.anchor, ss.resize_ratio, ss.shadow_preset)
     if ss.last_settings_sig != current_settings_sig:
