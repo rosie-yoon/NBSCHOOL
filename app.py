@@ -166,7 +166,6 @@ if not st.session_state["authenticated"]:
 header_col1, header_col2 = st.columns([4, 1])
 with header_col1:
     st.title(CONFIG["APP_TITLE"])
-    st.caption("상품 커버 자동 합성")
 with header_col2:
     if CONFIG["SHOW_MANUAL"]:
         if st.button("📖 사용법", use_container_width=True):
