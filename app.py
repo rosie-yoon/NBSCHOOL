@@ -346,7 +346,7 @@ with right_col:
         index=0
     )
     
-    resize_options = [1.3, 1.2, 1.1, 1.0, 0.9, 0.8, 0.7]
+    resize_options = [1.2, 1.15, 1.1, 1.05, 1.0, 0.95, 0.9, 0.85, 0.8]
     ss.resize_ratio = c2.selectbox(
         "📏 크기 조정",
         resize_options,
